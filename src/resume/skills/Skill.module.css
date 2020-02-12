@@ -1,0 +1,9 @@
+.skillMeterBack {
+  height: 20px;
+  background-color: gray;
+}
+
+.skillMeterFore {
+  height: 20px;
+  background-color: blue;
+}
