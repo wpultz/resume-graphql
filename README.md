@@ -1,16 +1,16 @@
-https://levelup.gitconnected.com/building-your-graphql-api-with-node-and-mongodb-799a2b9ae0b4
+## Articles I referenced while building this GraphQL server
 
-https://medium.com/@anwesha_das/a-strongly-typed-create-react-app-with-an-express-api-server-44e2334ccc71
+[Creating a graphql server with node and mongo](https://levelup.gitconnected.com/building-your-graphql-api-with-node-and-mongodb-799a2b9ae0b4)
 
-https://medium.com/@tomanagle/strongly-typed-models-with-mongoose-and-typescript-7bc2f7197722
+[Create react app + TypeScript + Express](https://medium.com/@anwesha_das/a-strongly-typed-create-react-app-with-an-express-api-server-44e2334ccc71)
 
-https://medium.com/@HurricaneJames/graphql-mutations-fb3ad5ae73c4
+[Mongoose + TypeScript + interfaces for strong typing](https://medium.com/@tomanagle/strongly-typed-models-with-mongoose-and-typescript-7bc2f7197722)
 
-Strong types for TypeScript + graphql
-https://atheros.ai/blog/generate-javascript-static-types-from-graphql-typescript-and-flow
+[GraphQL mutations](https://medium.com/@HurricaneJames/graphql-mutations-fb3ad5ae73c4)
 
-Generate TypeScript types with graphql-codegen
-https://github.com/dotansimha/graphql-code-generator
+[Strong types for TypeScript + graphql via graphql-codegen](https://atheros.ai/blog/generate-javascript-static-types-from-graphql-typescript-and-flow)
+
+[graphql-codegen](https://github.com/dotansimha/graphql-code-generator)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
