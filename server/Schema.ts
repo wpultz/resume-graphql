@@ -7,12 +7,6 @@ import Position from './models/position'
 
 import * as gqlTypes from '../graphql/graphql'
 
-// import {
-//   MutationAddEducationArgs,
-//   MutationAddExperienceArgs,
-//   MutationAddSkillArgs,
-//   QueryGetEducationArgs
-// } from '../graphql/graphql'
 import { schemaAST } from '../graphql/schema'
 
 export const root = {
@@ -95,7 +89,7 @@ export const schema = buildASTSchema(schemaAST)
 
 This is how one of the articles I referenced defined types. This was insanity, so I opted to write the schema as a
 literal and generate the types automatically with graphql-codegen and then create AST and query object with graphql.js
-tools. The AST is exported from graphql/schema.ts. The generated TS types are export from graphql/graphql.tsx.
+tools. The AST is exported from graphql/schema.ts. The generated TS types are exported from graphql/graphql.tsx.
 
 */
 

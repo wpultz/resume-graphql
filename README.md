@@ -1,3 +1,9 @@
+## What is this?
+
+**This is a work in progress, still need to integrate Apollo and remove Redux**
+
+This is a version of my resume site that uses GraphQL to present various types of resume information to the front end. The GraphQL server resolves fields to MongoDB via Mongoose.
+
 ## Articles I referenced while building this GraphQL server
 
 [Creating a graphql server with node and mongo](https://levelup.gitconnected.com/building-your-graphql-api-with-node-and-mongodb-799a2b9ae0b4)
