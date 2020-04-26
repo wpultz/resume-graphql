@@ -34,7 +34,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server:dev": "ts-node --project tsconfig-server.json server/index.ts",
-    "graphql:gen": "graphql-codegen --config codegen.yml"
+    "graphql:gen": "graphql-codegen --config codegen.yml",
+    "server:prod": "ts-node --project tsconfig-server.json server/index.ts"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -57,6 +58,7 @@
     "@graphql-codegen/typescript": "1.12.2",
     "@graphql-codegen/typescript-operations": "^1.12.2",
     "@graphql-codegen/typescript-react-apollo": "1.12.2",
-    "@types/mongoose": "^5.7.0"
+    "@types/mongoose": "^5.7.0",
+    "@types/react-redux": "^7.1.7"
   }
 }

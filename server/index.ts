@@ -1,13 +1,16 @@
 import express from 'express'
 import graphqlHTTP from 'express-graphql'
 import mongo from 'mongoose'
+import path from 'path'
 import dotenv from 'dotenv'
 
 import { root, schema } from './Schema'
 
 // Load env vars from .env file.
 // TODO only do this in DEV mode (process.env.NODE_ENV)
+// if (process.env.NODE_ENV === 'development') {
 dotenv.config()
+// }
 
 const app = express()
 
@@ -37,6 +40,12 @@ app.use(
     }
   })
 )
+
+app.use(express.static(path.join(__dirname, '..', 'build')))
+
+app.use('*', (req, res) => {
+  res.sendFile('index.html')
+})
 
 app.listen(8080, () => {
   console.log('Server running on port 8080...')
