@@ -11,13 +11,10 @@ dotenv.config()
 
 const app = express()
 
-mongo.connect(
-  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-q1iwg.mongodb.net/test?retryWrites=true&w=majority`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  }
-)
+mongo.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_URL}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
 
 mongo.connection.once('open', () => {
   console.log('connected to database')

@@ -6,6 +6,10 @@ generates:
       - 'typescript'
       - 'typescript-operations'
       - 'typescript-react-apollo'
+  src/graphql/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
   ./graphql.schema.json:
     plugins:
       - 'introspection'

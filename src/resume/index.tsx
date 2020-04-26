@@ -4,7 +4,6 @@ import { Skills } from './skills'
 import { Experiences } from './experience'
 import { Educations } from './education'
 
-// @ts-ignore
 import styles from './Resume.module.css'
 
 export function Resume() {

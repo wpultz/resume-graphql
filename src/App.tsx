@@ -8,7 +8,7 @@ import styles from './App.module.css'
 // @ts-ignore
 import profileImg from './assets/IMG_0416.JPG'
 
-const client = new ApolloClient({ uri: 'http://localhost:8080/graphql' })
+const client = new ApolloClient({ uri: 'http://localhost:3000/graphql' })
 
 function App() {
   return (

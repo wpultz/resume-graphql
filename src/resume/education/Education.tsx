@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { IEducation } from '../../modules/education'
+import { Education as IEducation } from '../../graphql/graphql'
 
 interface IEducationProps {
   education: IEducation
