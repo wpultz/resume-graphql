@@ -10,10 +10,8 @@ export function Education(props: IEducationProps) {
   const { education } = props
   return (
     <div>
-      <div>{education.school}</div>
-      <div>{education.degree}</div>
-      <div>{education.gpa}</div>
-      <div>{education.description}</div>
+      <h2>{education.school}</h2>
+      {education.degree}, {education.gpa}
     </div>
   )
 }
